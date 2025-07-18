@@ -14,7 +14,7 @@ export default function Navbar() {
       const heroBottom = hero.getBoundingClientRect().bottom;
       const shouldBeSticky = heroBottom <= 0;
       
-      setIsSticky(prev => shouldBeSticky);
+      setIsSticky(shouldBeSticky);
     };
 
     window.addEventListener("scroll", handleScroll);

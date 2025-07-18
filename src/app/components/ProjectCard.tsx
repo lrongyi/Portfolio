@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 interface ProjectCardProps {
   image: string
@@ -26,12 +27,15 @@ export default function ProjectCard({
         <a href={repoLink} 
             target="_blank"
             rel="noopener noreferrer">
-            <img
-          src={image}
-          alt="Project Image"
-          className="w-full h-full max-w-xl object-contain rounded-xl hover:scale-90 duration-200 cursor-pointer"
-          
-        />
+            <Image
+              src={image}
+              alt="Project Image"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="w-full h-auto max-w-xl object-contain rounded-xl hover:scale-90 duration-200 cursor-pointer"
+              
+            />
         </a>
         
       </div>

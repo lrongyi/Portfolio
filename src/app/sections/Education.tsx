@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function Education() {
   return (
@@ -18,7 +19,7 @@ export default function Education() {
             <div className="flex md:hidden items-start pl-12 sm:pl-16 w-full">
               <div className="flex-1 space-y-3">
                 <div className="flex items-start gap-3 sm:gap-4">
-                  <img src="/nus.png" alt="NUS Logo" className="w-10 h-10 sm:w-12 sm:h-12 object-contain flex-shrink-0 mt-1" />
+                  <Image src="/nus.png" alt="NUS Logo" width={0} height={0} sizes="100vw" className="w-10 h-10 sm:w-12 sm:h-12 object-contain flex-shrink-0 mt-1" />
                   <div className="flex-1 min-w-0">
                     <h3 className="text-base sm:text-lg font-bold text-white leading-tight">National University of Singapore</h3>
                     <p className="text-freshwater text-sm mt-1">2023 – Present</p>
@@ -52,7 +53,7 @@ export default function Education() {
                 </div>
               </div>
               <div className="w-1/2 flex items-center pl-8">
-                <img src="/nus.png" alt="NUS Logo" className="w-16 h-16 object-contain md:hover:scale-110 transition-transform duration-200 origin-center" />
+                <Image src="/nus.png" alt="NUS Logo" width={0} height={0} sizes="100vw" className="w-16 h-16 object-contain md:hover:scale-110 transition-transform duration-200 origin-center" />
               </div>
             </div>
 
@@ -69,13 +70,13 @@ export default function Education() {
             <div className="flex md:hidden items-start pl-12 sm:pl-16 w-full">
               <div className="flex-1 space-y-3">
                 <div className="flex items-start gap-3 sm:gap-4">
-                  <img src="/tmjc.png" alt="TMJC Logo" className="w-10 h-10 sm:w-12 sm:h-12 object-contain flex-shrink-0 mt-1" />
+                  <Image src="/tmjc.png" alt="TMJC Logo" width={0} height={0} sizes="100vw" className="w-10 h-10 sm:w-12 sm:h-12 object-contain flex-shrink-0 mt-1" />
                   <div className="flex-1 min-w-0">
                     <h3 className="text-base sm:text-lg font-bold text-white leading-tight">Tampines Meridian Junior College</h3>
                     <p className="text-freshwater text-sm mt-1">2019 – 2020</p>
                   </div>
                 </div>
-                <p className="text-sm">'A' Levels</p>
+                <p className="text-sm">&apos;A&apos; Levels</p>
                 <div className="flex flex-wrap gap-2">
                   <span className="bg-slate-500 text-white px-2 py-1 rounded-lg text-xs">Physics</span>
                   <span className="bg-slate-500 text-white px-2 py-1 rounded-lg text-xs">Chemistry</span>
@@ -88,13 +89,13 @@ export default function Education() {
             {/* Desktop layout - right aligned */}
             <div className="hidden md:flex items-center w-full">
               <div className="w-1/2 flex items-center justify-end pr-8">
-                <img src="/tmjc.png" alt="TMJC Logo" className="w-16 h-16 object-contain md:hover:scale-110 transition-transform duration-200 origin-center" />
+                <Image src="/tmjc.png" alt="TMJC Logo" width={0} height={0} sizes="100vw" className="w-16 h-16 object-contain md:hover:scale-110 transition-transform duration-200 origin-center" />
               </div>
               <div className="w-1/2 flex flex-col items-start pl-8">
                 <div>
                   <h3 className="text-xl font-bold text-white md:hover:scale-110 transition-transform duration-200 origin-left">Tampines Meridian Junior College</h3>
                   <p className="text-freshwater text-sm">2019 – 2020</p>
-                  <p>'A' Levels</p>
+                  <p>&apos;A&apos; Levels</p>
                   <div className="flex flex-wrap gap-2 mt-2">
                     <span className="bg-slate-500 text-white px-3 py-1 rounded-xl text-xs md:hover:scale-110 transition-transform duration-200 origin-center hover:text-freshwater">Physics</span>
                     <span className="bg-slate-500 text-white px-3 py-1 rounded-xl text-xs md:hover:scale-110 transition-transform duration-200 origin-center hover:text-freshwater">Chemistry</span>
