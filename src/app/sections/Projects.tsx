@@ -38,6 +38,16 @@ export default function Projects() {
           repoLink="https://github.com/lrongyi/MouseControl"
           reverse={false}
         />
+
+        <ProjectCard
+          image='/computer_vision.png' //placeholder for now
+          title='Travella'
+          subtitle='Itinerary Planner'
+          description='An interactive itinerary planner that enables users to plan trips with friends'
+          tech={["React", "Next.js", "Tailwind CSS", "Prisma", "PostgreSQL", "Docker"]}
+          repoLink='https://travella-giq0.onrender.com/'
+          reverse={true}
+        />
       </div>
     </div>
   )
