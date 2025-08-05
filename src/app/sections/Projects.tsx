@@ -40,7 +40,7 @@ export default function Projects() {
         />
 
         <ProjectCard
-          image='/computer_vision.png' //placeholder for now
+          image='/travella.png'
           title='Travella'
           subtitle='Itinerary Planner'
           description='An interactive itinerary planner that enables users to plan trips with friends'
