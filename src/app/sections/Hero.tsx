@@ -17,7 +17,7 @@ export default function Hero() {
           <div className="flex flex-row gap-8 md:gap-12 justify-center">
             {/* Resume Icon */}
             <a
-              href="/lam_rong_yi_resume.pdf"
+              href="/lamrongyi_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block rounded-3xl bg-transparent"
